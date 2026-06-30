@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Grupos Pre and Post bids",
-  "description": "A BIDS-formatted neuroimaging dataset containing pre and post intervention EEG recordings. This dataset provides raw electroencephalography data in .edf format with accompanying BIDS-compliant metadata documenting acquisition parameters, electrode configurations, sampling rates, and participant information. The dataset follows BIDS conventions (version 1.6.0) and includes baseline EEG recordings obtained prior to intervention, followed by post-intervention measurements.",
-  "methods_description": "EEG data were collected and organized according to BIDS conventions (version 1.6.0). The dataset includes EEG recordings in .edf format with accompanying BIDS-compliant metadata (.json, .tsv files) documenting acquisition parameters, electrode configurations, sampling rates, and participant information. Pre-intervention baseline EEG recordings were obtained from all participants, followed by post-intervention EEG measurements. For detailed information about participant groups, intervention protocols, and outcome measures, please refer to the dataset's README and BIDS metadata files.",
+  "description": "A BIDS-formatted neuroimaging dataset containing pre and post intervention EEG recordings from multiple subjects. This dataset provides raw EEG data suitable for comparative analysis of neural activity changes across baseline and post-intervention conditions. The dataset includes EEG recordings in .edf format with accompanying BIDS-compliant metadata documenting acquisition parameters, electrode configurations, sampling rates, and participant information. The intervention protocol and specific clinical or research context are documented in the accompanying dataset files.",
+  "methods_description": "EEG data were collected and organized according to BIDS conventions (version 1.6.0). The dataset includes EEG recordings in .edf format with accompanying BIDS-compliant metadata (.json, .tsv files) documenting acquisition parameters, electrode configurations, sampling rates, and participant information. Pre-intervention baseline EEG recordings were obtained from all participants, followed by an intervention protocol, with post-intervention EEG measurements collected to assess intervention effects. Detailed information about the specific intervention protocol, participant demographics, and clinical context is available in the dataset's accompanying documentation.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,10 +17,10 @@
       "term": "electroencephalography"
     },
     {
-      "term": "pre-post design"
+      "term": "pre-post intervention design"
     },
     {
-      "term": "intervention"
+      "term": "intervention study"
     },
     {
       "term": "BIDS"
@@ -41,17 +41,15 @@
       "identifier": "10.18112/openneuro.ds007666.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
-    },
-    {
-      "identifier": "10.18112/openneuro.ds007666",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
     {
       "funder_name": "Not specified",
       "award_number": ""
+    },
+    {
+      "funder_name": "No funding information available"
     }
   ],
   "resource_type_general": "Dataset",
