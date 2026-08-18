@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Grupos Pre and Post bids",
-  "description": "A BIDS-formatted neuroimaging dataset containing pre and post intervention EEG recordings from multiple subjects. This dataset provides raw EEG data suitable for comparative analysis of neural activity changes across baseline and post-intervention conditions. The dataset includes EEG recordings in .edf format with accompanying BIDS-compliant metadata documenting acquisition parameters, electrode configurations, sampling rates, and participant information. The intervention protocol and specific clinical or research context are documented in the accompanying dataset files.",
+  "description": "This dataset comprises EEG recordings organized in BIDS format, collected from participants at pre- and post-intervention time points. It is intended to support analyses of intervention-related changes in brain activity across two experimental groups.",
   "methods_description": "EEG data were collected and organized according to BIDS conventions (version 1.6.0). The dataset includes EEG recordings in .edf format with accompanying BIDS-compliant metadata (.json, .tsv files) documenting acquisition parameters, electrode configurations, sampling rates, and participant information. Pre-intervention baseline EEG recordings were obtained from all participants, followed by an intervention protocol, with post-intervention EEG measurements collected to assess intervention effects. Detailed information about the specific intervention protocol, participant demographics, and clinical context is available in the dataset's accompanying documentation.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -14,13 +14,7 @@
       "term": "EEG"
     },
     {
-      "term": "electroencephalography"
-    },
-    {
-      "term": "pre-post intervention design"
-    },
-    {
-      "term": "intervention study"
+      "term": "pre-post design"
     },
     {
       "term": "BIDS"
